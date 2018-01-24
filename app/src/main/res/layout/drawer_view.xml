@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/nav_listview"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|start"
+        android:background="@color/white"
+        android:divider="@color/group_divider_color"
+        android:dividerHeight="0.5dp"
+        android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"/>
+
+</android.support.constraint.ConstraintLayout>
